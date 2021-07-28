@@ -1,0 +1,27 @@
+{
+  "name": "@theorylabs/pkgx",
+  "version": "0.0.1",
+  "description": "Better yarn/npm init.",
+  "author": "Branden Dane <Dane@TheoryLabs.dev> (https://TheoryLabs.dev)",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "pkgx": "./bin/pkgx.js"
+  },
+  "publishConfig": {
+     "access": "public"
+   },
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+     "cli",
+     "node-cli",
+     "theorylabs",
+     "pkgx",
+     "package.json"
+   ],
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
